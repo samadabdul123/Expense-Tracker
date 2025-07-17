@@ -1,0 +1,30 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+.Container {
+  display: flex;
+  justify-content: center; 
+   /* align-items: center;       */
+   height: 50vh;      
+   width: 65vw;      
+   /* margin: 0px 50px 5vh 50px;  */
+   margin: 0 auto; 
+   background-color: white;
+   border: 1px solid black; 
+   gap: 3vw;
+ } 
+ .left{ 
+   display: flex; 
+   flex-direction: column; 
+ } 
+ .history{
+  width: 20vw;
+ }
+
+
+

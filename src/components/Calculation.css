@@ -1,0 +1,34 @@
+.calc{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 110px;
+    width: 40vw;
+    flex-shrink: 0;
+
+}
+.expense{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    height: 8vh;
+}
+.balance{
+   height: 8vh;
+   display: flex;
+   justify-content: center;
+   /* margin: 2px; */
+   color: brown;
+   font-size: 35px; 
+}
+ .para{
+    border: 0.5px solid black;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+
+    width: 50%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
